@@ -35,18 +35,18 @@ Constructed a regression plot with a "Line of Best Fit" to visually communicate 
 ---
 
 ## 💡 Key Actionable Insights
-* Predictive Precision: The model achieved an **R² score of ~0.92**, indicating that 92% of the variance in petal width is determined by its length, making it a highly reliable predictor.
-* Direct Growth Constant: The positive slope confirms a **linear growth pattern**, suggesting that Iris species maintain a consistent morphological ratio throughout their development.
-* Efficiency of Simplicity: The low **Mean Squared Error (MSE)** proves that a simple linear model is the optimal choice for this data, as it captures the biological trend with minimal error.
+* **Predictive Precision**: The model achieved an **R² score of ~0.92**, indicating that 92% of the variance in petal width is determined by its length, making it a highly reliable predictor.
+* **Direct Growth Constant**: The positive slope confirms a **linear growth pattern**, suggesting that Iris species maintain a consistent morphological ratio throughout their development.
+* **Efficiency of Simplicity**: The low **Mean Squared Error (MSE)** proves that a simple linear model is the optimal choice for this data, as it captures the biological trend with minimal error.
 
 ---
 **🛠️ Technical Implementation**
-* Data Processing: Isolated petal_length as the feature ($X$) and petal_width as the target ($y$).
-* The Model: Implemented Simple Linear Regression using the formula:
+* **Data Processing**: Isolated petal_length as the feature ($X$) and petal_width as the target ($y$).
+* **The Model**: Implemented Simple Linear Regression using the formula:
   
    $$y = \beta_0 + \beta_1x + \epsilon$$
   
-* Training & Validation: Utilized an 80/20 Train-Test split to ensure real-world accuracy.
+* **Training & Validation**: Utilized an 80/20 Train-Test split to ensure real-world accuracy.
 
 ---
 **🛠️ Tools Used**
